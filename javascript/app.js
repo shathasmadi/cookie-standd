@@ -1,7 +1,7 @@
 'use stricts';
 let objectOfAll=[];
-function city(name,minimum,maximum,avgC){
-  this.cityName=name;
+function City(name,minimum,maximum,avgC){
+  this.CityName=name;
   this.minCust=minimum;
   this.maxCust=maximum;
   this.avgCookies=avgC;
@@ -10,17 +10,17 @@ function city(name,minimum,maximum,avgC){
   objectOfAll.push(this);
 }
 
-let seattle = new city('seattle',23,65,6.3);
-let tokyo = new city('tokyo',3,24,1.2);
-let dubai = new city('dubai',11,38,2.3);
-let paris = new city('paris',20,38,2.3);
-let lima = new city('lima',11,38,3.7);
+let seattle = new City('seattle',23,65,6.3);
+let tokyo = new City('tokyo',3,24,1.2);
+let dubai = new City('dubai',11,38,2.3);
+let paris = new City('paris',20,38,2.3);
+let lima = new City('lima',11,38,3.7);
 
-city.prototype.rand=function(){
+City.prototype.rand=function(){
   return Math.random() * (this.maxCust - this.minCust) + this.minCust
 };
 
-city.prototype.avgCust=function(){
+City.prototype.avgCust=function(){
   for(let i=0;i<14;i++){
     this.avgCustPerHr[i]=this.rand();
     this.cookPerEachHr[i]=Math.ceil(this.avgCustPerHr[i]*this.avgCookies);
@@ -73,13 +73,13 @@ tableRow();
 
 
 let sTotal=0;
-city.prototype.render=function(){
+City.prototype.render=function(){
   let tr1=document.createElement('tr');
   table.appendChild(tr1);
 
   tbEl=document.createElement('td');
   tr1.appendChild(tbEl);
-  tbEl.textContent=`${this.cityName}`;
+  tbEl.textContent=`${this.CityName}`;
 
   let total=0;
   for(let i =0 ; i<=this.cookPerEachHr.length ; i++){
