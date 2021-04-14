@@ -102,6 +102,23 @@ paris.render();
 lima.render();
 
 
+let newStandForm = document.getElementById('addStandForm');
+newStandForm.addEventListener('submit' , function(event){
+  event.preventDefault();
+  console.log(event.target);
+  let branchName = event.target.name.value;
+  let min = parseInt(event.target.minCustomerPerHour.value);
+  let max = parseInt(event.target.maxCustomerPerHour.value);
+  let avg =parseFloat(event.target.avgCookiesPerCustomer.value) ;
+  let newBranch = new City(branchName , min ,max, avg);
+  newBranch.avgCust();
+  newBranch.render();
+  table.setAttribute('id','newTable');
+  document.getElementById('newTable').deleteRow(objectOfAll.length);
+   tableFoRow();
+});
+
+
 
 function tableFoRow(){
   let lastRow=document.createElement('tr');
@@ -129,9 +146,6 @@ function tableFoRow(){
   }
 }
 tableFoRow();
-
-
-
 
 
 

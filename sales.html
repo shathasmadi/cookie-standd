@@ -12,6 +12,22 @@
     <div id="contanet1">
 
     </div>
+
+    <div>
+        <form id="addStandForm">
+          <h1>Add a new stand :</h1>
+          <label for="name">Stand Location</label>
+          <input type="text" id="name" placeholder="Enter the location of the new stand"required><br>
+          <label for="minCustomerPerHour">Minimum number of customers</label><br>
+          <input type="number" id="minCustomerPerHour" placeholder="Enter the min number of customers per hour"required><br>
+          <label for="maxCustomerPerHour">Maximum number of customers</label><br>
+          <input type="number" id="maxCustomerPerHour" placeholder="Enter the max number of customers per hour"required><br>
+          <label for="avgCookiesPerCustomer">Average number of cookies</label><br>
+          <input type="number" step="0.1" id="avgCookiesPerCustomer" placeholder="Enter the average number of cookies per customer"required><br>
+          <input type="submit">
+        </form>
+      </div>
+
     <script src="javascript/app.js"></script>
 </body>
 </html>
