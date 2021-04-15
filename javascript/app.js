@@ -147,15 +147,6 @@ function tableFoRow(){
 }
 tableFoRow();
 
-
-
-
-
-
-
-
-
-
 // 'use strict';
 // //seattle
 // const seatle = {
@@ -177,7 +168,7 @@ tableFoRow();
 // };
 // seatle.avgCust();
 
-// let container=document.getElementById('cont');
+// let container=document.getElementById('contanet1');
 // let locationName=document.createElement('h1');
 // container.appendChild(locationName);
 // locationName.textContent='Seattle';
@@ -233,7 +224,7 @@ tableFoRow();
 //   };
 //   tokyo.avgCust();
   
-//   container=document.getElementById('cont');
+//   container=document.getElementById('contanet1');
 //   locationName=document.createElement('h1');
 //   container.appendChild(locationName);
 //   locationName.textContent='Tokyo';
@@ -289,7 +280,7 @@ tableFoRow();
 //   };
 //   dubai.avgCust();
   
-//   container=document.getElementById('cont');
+//   container=document.getElementById('contanet1');
 //   locationName=document.createElement('h1');
 //   container.appendChild(locationName);
 //   locationName.textContent='Dubai';
@@ -343,7 +334,7 @@ tableFoRow();
 //   };
 //   paris.avgCust();
   
-//   container=document.getElementById('cont');
+//   container=document.getElementById('contanet1');
 //   locationName=document.createElement('h1');
 //   container.appendChild(locationName);
 //   locationName.textContent='Paris';
@@ -399,7 +390,7 @@ tableFoRow();
 //   };
 //   lima.avgCust();
   
-//   container=document.getElementById('cont');
+//   container=document.getElementById('contanet1');
 //   locationName=document.createElement('h1');
 //   container.appendChild(locationName);
 //   locationName.textContent='Lima';
