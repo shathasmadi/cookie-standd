@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f8ff;
+}
+
+ h4{
+    text-align: center;
+    font-size: xx-large;
+   
+}
+header h1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(2, 6, 26);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+div img{
+padding-left: 250px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(2, 6, 26);
+  }
+  
+header ul li {
+    float: left;
+  }
+  
+header ul li a {
+    display: block;
+    color: rgb(246, 245, 248);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+  
+ header ul li a:hover {
+    background-color: rgb(121, 120, 120);
+  }
+  main h1{
+    font-style: oblique;
+    font-weight: bolder;
+    padding-bottom: 15px;
+  }
+  #addStandForm{
+      text-align: center;
+  }
+  #addStandForm h1{
+      font-size: xx-large;
+      padding-top:70px;
+  }
+  table {          
+    position: absolute;
+    top: 40%;   
+    margin-top: 10%;
+    border-collapse: collapse;
+    width: 100%;
+    }
+  th, td {
+      text-align: left;
+      padding: 8px;
+    }
+  tr:nth-child(even) {
+ background-color: rgb(1, 4, 15);
+  color: whitesmoke;
+}
+#locationn h2{
+font-size: xx-large;
+color: rgb(2, 6, 26);
+}
+#locationn{
+    padding-left: 10px;
+    border:solid rgb(2, 6, 26);
+    border-width: 5px;
+    border-radius: 2%;
+    display: inline-block;
+    margin-top: 20px;
+}
+#location h2{
+    font-size: xx-large;
+    color: rgb(2, 6, 26);
+    }
+#location{
+    padding-left: 10px;
+    border:solid rgb(2, 6, 26);
+    border-width: 5px;
+    border-radius: 2%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#location3{
+color: rgb(12, 12, 12);
+background-color: rgb(5, 5, 48);
+color: cornsilk;
+padding-left: 35px;
+}
+#location3 h3{
+font-size: xx-large;
+}
+footer{
+    background-color: rgb(2, 6, 26);
+    padding-top: 20px;
+}
+footer p{
+    
+    color: rgb(246, 245, 248);
+    text-align: center;
+}

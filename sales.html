@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <div id="contanet1">
-
-    </div>
-
+  <header>
+    <h1>Cookie Markets</h1>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li> <a href="sales.html">Sales </a></li>
+    <li><a href="gallary.html">Gallary</a></li>
+    </ul>
+   
+   </header>
+   <main>
     <div>
         <form id="addStandForm">
           <h1>Add a new stand :</h1>
-          <label for="name">Stand Location</label>
+          <label for="name">Stand Location</label><br>
           <input type="text" id="name" placeholder="Enter the location of the new stand"required><br>
           <label for="minCustomerPerHour">Minimum number of customers</label><br>
           <input type="number" id="minCustomerPerHour" placeholder="Enter the min number of customers per hour"required><br>
@@ -27,6 +34,10 @@
           <input type="submit">
         </form>
       </div>
+      <div id="contanet1">
+
+      </div>
+    </main>
 
     <script src="javascript/app.js"></script>
 </body>
