@@ -84,6 +84,7 @@ color: rgb(2, 6, 26);
     border-radius: 2%;
     display: inline-block;
     margin-top: 20px;
+    margin-left: 20px;
 }
 #location h2{
     font-size: xx-large;
@@ -97,12 +98,15 @@ color: rgb(2, 6, 26);
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 #location3{
 color: rgb(12, 12, 12);
 background-color: rgb(5, 5, 48);
 color: cornsilk;
 padding-left: 35px;
+
+
 }
 #location3 h3{
 font-size: xx-large;
